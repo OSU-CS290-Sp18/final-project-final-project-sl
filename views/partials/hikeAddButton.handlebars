@@ -1,0 +1,38 @@
+<button type="button" id="create-hike-button"><i class="fas fa-bullhorn"></i></button>
+
+  <div id="modal-backdrop" class="hidden"></div>
+  <div id="create-hike-modal" class="hidden">
+    <div class="modal-dialog">
+
+      <div class="modal-header">
+        <h3>Add a hike</h3>
+        <button type="button" class="modal-close-button">&times;</button>
+      </div>
+
+      <div class="modal-body">
+	    <div class="hike-input-element">
+          <label for="hike-name-input">hike name</label>
+          <textarea id="hike-name-input"></textarea>
+        </div>
+		<div class="hike-input-element">
+          <label for="hike-imagelink-input">link to picture</label>
+          <textarea id="hike-imagelink-input"></textarea>
+        </div>
+        <div class="hike-input-element">
+          <label for="hike-text-input">Describe the hike</label>
+          <textarea id="hike-text-input"></textarea>
+        </div>
+        <div class="hike-input-element">
+          <label for="hike-attribution-input">Author</label>
+          <input type="text" id="hike-attribution-input">
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <button type="button" class="modal-cancel-button">Cancel</button>
+      <button type="button" class="modal-accept-button">Add hike</button>
+    </div>
+
+  </div>
+</div>
+	
